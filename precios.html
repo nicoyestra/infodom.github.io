@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Precios - INFODOM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 800px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #28a745;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .nota {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        a.volver {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        a.volver:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lista de Precios</h1>
+    <table>
+        <tr>
+            <th>Trámites/Turnos</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Informe de Dominio</td>
+            <td>$10.000</td>
+        </tr>
+        <tr>
+            <td>Informe de Dominio Histórico</td>
+            <td>$10.000</td>
+        </tr>
+        <tr>
+            <td>Informe de Infracciones</td>
+            <td>$15.000</td>
+        </tr>
+        <tr>
+            <td>Denuncia de Venta</td>
+            <td>$10.000</td>
+        </tr>
+        <tr>
+            <td>Transferencia</td>
+            <td>$25.000<br><small>Incluye estimador de costo previo y envío de título PDF una vez finalizado</small></td>
+        </tr>
+        <tr>
+            <td>Inscripción de Cero Kilómetro</td>
+            <td>$10.000</td>
+        </tr>
+        <tr>
+            <td>Verificación Policial - Auto</td>
+            <td>$60.000<br><small>($42.058 www.mseg.gba.gov.ar + $17.942 gestoría)</small></td>
+        </tr>
+        <tr>
+            <td>Verificación Policial - Moto</td>
+            <td>$40.000<br><small>($20.286 www.mseg.gba.gov.ar + $19.714 gestoría)</small></td>
+        </tr>
+    </table>
+
+    <p class="nota">*Los precios están sujetos a cambios según tarifas oficiales. Se recomienda confirmar vía WhatsApp.</p>
+
+    <a href="index.html" class="volver">← Volver al inicio</a>
+</body>
+</html>
